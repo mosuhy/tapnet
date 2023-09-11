@@ -1,7 +1,6 @@
 apt update && apt install ffmpeg -y
 pip3 install streamlit_image_coordinates
 
-git clone https://github.com/deepmind/tapnet.git
 pip install -r tapnet/requirements_inference.txt
 
 mkdir tapnet/checkpoints
